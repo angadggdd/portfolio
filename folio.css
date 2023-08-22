@@ -1,15 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body{
+
+body {
     color: red;
 
 }
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -21,7 +22,8 @@ body{
     align-items: center;
     z-index: 100;
 }
-.pic img{
+
+.pic img {
     width: 300px;
     height: 300px;
     float: right;
@@ -31,18 +33,20 @@ body{
     box-shadow: 0 0 100px aqua;
 
 }
-.pic img:hover{
+
+.pic img:hover {
     box-shadow: 0 0 20px aqua;
 }
 
-.logo{
+.logo {
     position: relative;
     font-size: 25px;
     color: #fff;
     text-decoration: none;
     font-weight: 600;
 }
-.navbar a{
+
+.navbar a {
     display: inline-block;
     font-size: 25px;
     color: #fff;
@@ -51,10 +55,12 @@ body{
     margin-left: 35px;
     transition: .3s;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     color: aqua;
 }
-.home{
+
+.home {
     position: relative;
     width: 100%;
     justify-content: center;
@@ -66,23 +72,34 @@ body{
     align-items: center;
     padding: 70px 10% 0;
 }
-.home-contect{
-    max-width: 600px;
-}
-.home-contect h3{
-    font-size: 12px;
-    font-weight: 700;
 
+.home-contect {
+    max-width: 600px;
+    height: 100%;
 }
-.home-contect h1{
+
+.home-contect h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: aqua;
+}
+
+.home-contect h1 {
     font-size: 56px;
     font-weight: 700;
     margin: -3px 0;
+    color: #fff;
+    margin-bottom: 20px;
 }
-.home-contect p{
+
+.home-contect p {
     font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 100px;
 }
-.home-scl a{
+
+.home-scl a {
     display: inline flex;
     justify-content: center;
     align-items: center;
@@ -94,15 +111,17 @@ body{
     color: aqua;
     text-decoration: none;
     font-weight: 700;
-    margin: 30px 15px 30px 0;  
+    margin: 30px 15px 30px 0;
 }
-.home-scl a:hover{
+
+.home-scl a:hover {
     background: rgb(74, 223, 228);
     color: black;
     box-shadow: 0 0 20px aqua;
 
 }
-.btn-box{
+
+.btn-box {
     display: inline-block;
     padding: 12px 28px;
     background: aqua;
@@ -113,11 +132,8 @@ body{
     text-decoration: none;
     font-weight: 600;
 }
-.btn-box:hover{
+
+.btn-box:hover {
     box-shadow: 0 0 5px cyan, 0 0 25px cyan,
-    0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+        0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
-
-
-
-
